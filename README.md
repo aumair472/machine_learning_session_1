@@ -1,10 +1,10 @@
-#Student Performance Prediction — Linear Regression
+# Student Performance Prediction — Linear Regression
 
 This project builds a Multiple Linear Regression model to predict a student's Performance Index based on study habits, sleep hours, previous scores, extracurricular activities, and practice papers attempted.
 
 The notebook covers the full ML workflow:
 
-##Key Steps
+## Key Steps
 
 Load & explore dataset
 
@@ -22,7 +22,7 @@ Evaluate performance (R², MAE, RMSE)
 
 Predict performance for a new student
 
-##Model Performance
+## Model Performance
 
 R²: 0.9890
 
@@ -30,7 +30,7 @@ MAE: 1.61
 
 RMSE: 2.02
 
-##Top positive predictors:
+## Top positive predictors:
 
 Hours Studied
 
@@ -40,11 +40,11 @@ Sleep Hours
 
 Extracurricular Activities
 
-##Sample Prediction
+## Sample Prediction
 
 The model predicts a Performance Index of ~68.46 for a student with average study habits.
 
-##Tech Stack
+## Tech Stack
 
 Python
 
