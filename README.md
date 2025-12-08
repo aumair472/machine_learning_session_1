@@ -1,16 +1,57 @@
-# Machine Learning Session 1 – Train/Test Split Practice
+#📊 Student Performance Prediction — Linear Regression
 
-This notebook is my first hands-on machine learning session, where I learn how to:
+This project builds a Multiple Linear Regression model to predict a student's Performance Index based on study habits, sleep hours, previous scores, extracurricular activities, and practice papers attempted.
 
-- Load a dataset with **Pandas**
-- Separate **features (X)** and **target (y)**
-- Use **scikit-learn** to split the data into:
-  - `X_train`, `X_test`, `y_train`, `y_test`
+The notebook covers the full ML workflow:
 
-## Steps Covered
+##🚀 Key Steps
 
-1. **Import libraries**
+Load & explore dataset
 
-   ```python
-   import pandas as pd
-   from sklearn.model_selection import train_test_split
+Identify dependent/independent variables
+
+Handle categorical data with One-Hot Encoding
+
+Perform Train/Test Split
+
+Check multicollinearity using VIF
+
+Train a Linear Regression Model
+
+Evaluate performance (R², MAE, RMSE)
+
+Predict performance for a new student
+
+##📈 Model Performance
+
+R²: 0.9890
+
+MAE: 1.61
+
+RMSE: 2.02
+
+##Top positive predictors:
+
+Hours Studied
+
+Previous Scores
+
+Sleep Hours
+
+Extracurricular Activities
+
+##🧪 Sample Prediction
+
+The model predicts a Performance Index of ~68.46 for a student with average study habits.
+
+##🛠 Tech Stack
+
+Python
+
+Pandas, NumPy
+
+scikit-learn
+
+Matplotlib
+
+statsmodels
